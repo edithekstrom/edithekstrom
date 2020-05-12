@@ -1,0 +1,170 @@
+
+
+html {
+  background:  url(https://media.giphy.com/media/rR3uq7dgpXWzC/giphy.gif) no-repeat center center fixed;
+  background-size: cover;
+}
+
+
+
+/* header styles */
+
+a {
+  color: blue;
+  font: 0,8em "Compagnon", sans-serif;
+
+}
+
+
+h1 {
+    text-align: center;
+    font: 2.0em "Fengardo Neue", sans-serif;
+    text-shadow: 0 0 7px #7134eb;
+    width: 100%;
+    padding-bottom: 1px;
+    margin-bottom: 1px;
+    color: blue;
+}
+
+
+header {
+  text-align: center;
+  font-style: italic;
+  font: 1.2em "Compagnon", sans-serif;
+  width: 100%;
+  padding-bottom: 4px;
+  margin-bottom: 4px;
+  color: blue;
+}
+
+
+
+
+p {
+    text-align: center;
+    font: 1.0em "Fengardo Neue", sans-serif;
+    width: 100%;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    color: black;
+}
+
+
+
+
+.center {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 4px;
+    margin-bottom: 4px;
+}
+
+
+.container {
+    margin-left: auto;
+    margin-right: 10px;
+    width:90%;
+}
+
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 70%;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.myfooter {
+
+  text-align: center;
+  width: 100%;
+  margin-bottom: 4px;
+  color: rgb(226,217,244);
+  font: 0.9em "Compagnon", sans-serif;
+  padding-bottom: 4px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+div.gallery-item {
+    margin: 20px;
+    width: 550px;
+    height:550px;
+    float:center;
+}
+
+
+
+div.gallery-item a {
+    padding: 0px 0px 0px 0p;
+}
+
+
+div.gallery-item img:hover {
+    border: 1px solid blue;
+
+}
+
+
+.gallery {
+    text-align: center;
+}
+
+
+.gallery-item img {
+  width: 550px;
+  height: 550px;
+
+}
+
+.description {
+  padding: 10px;
+}
+
+
+
+@media screen and (max-width: 1560px) {
+  /* .gallery {
+    background-color: green;
+  } */
+  .container {
+    width:100%;
+    float:center;
+  }
+  .gallery {
+      width:100%
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  /* .gallery {
+    background-color: grey;
+  } */
+
+  .gallery-item {
+    max-width: 30%;
+
+  }
+}
+
+@media screen and  (max-width: 800px) {
+  /* .gallery {
+    background-color: yellow;
+  } */
+    .gallery-item  {
+    min-width: 100%;
+  }
+}
